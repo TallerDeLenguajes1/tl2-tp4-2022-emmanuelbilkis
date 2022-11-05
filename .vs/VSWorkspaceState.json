@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Tp4",
+    "\\Tp4\\Controllers",
+    "\\Tp4\\Models",
+    "\\Tp4\\Views",
+    "\\Tp4\\Views\\Cadete",
+    "\\Tp4\\Views\\Home"
   ],
-  "SelectedNode": "\\C:\\Users\\emman\\Source\\Repos\\tl2-tp4-2022-emmanuelbilkis",
+  "SelectedNode": "\\Tp4\\Views\\Cadete\\altaCadete.cshtml",
   "PreviewInSolutionExplorer": false
 }
