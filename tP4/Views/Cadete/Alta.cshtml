@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Alta Cadete";
+}
+
+@model Cadete
+
+<header>
+    <h1>Alta del cadete @Model.getNombre() </h1>
+</header>
+
+<section>
+    <article>
+        <h2>Datos del cadete</h2>
+        <ul>
+            @Model.getTelefono();
+            @Model.getDireccion();
+            @Model.getID();
+        </ul>
+    </article>
+</section>

@@ -1,0 +1,19 @@
+﻿@model Cadeteria
+
+@{
+    ViewData["Title"] = "ListadoCadete";
+}
+
+<h1>ListadoCadete</h1>
+
+
+<p>
+@foreach (var cadete in Model.cadetes)
+{
+   
+    @cadete.getNombre();
+    @cadete.getTelefono();
+    @cadete.getID();
+    @cadete.getDireccion();
+}
+</p>
