@@ -1,13 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Tp4",
-    "\\Tp4\\Controllers",
-    "\\Tp4\\Models",
-    "\\Tp4\\Views",
-    "\\Tp4\\Views\\Cadete",
-    "\\Tp4\\Views\\Home"
+    "\\tP4",
+    "\\tP4\\Controllers"
   ],
-  "SelectedNode": "\\Tp4\\Views\\Cadete\\altaCadete.cshtml",
+  "SelectedNode": "\\tP4\\Controllers\\PedidoController.cs",
   "PreviewInSolutionExplorer": false
 }
