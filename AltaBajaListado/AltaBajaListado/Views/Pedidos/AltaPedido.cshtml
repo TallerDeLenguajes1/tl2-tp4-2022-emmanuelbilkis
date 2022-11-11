@@ -1,0 +1,26 @@
+﻿@model Pedido
+
+@{
+    ViewData["Title"] = "Alta Pedido";
+}
+
+<h1>Agregar un pedido</h1>
+
+<form asp-action="AltaPedido">
+    <div class="mb-3">
+        <label for="numero" class="form-label">
+            <input id="numero" name="numero" type="text" class="form-control" />
+        </label>
+        <label for="obs" class="form-label">
+            <input id="obs" name="observaciones" type="text" class="form-control" />
+        </label>
+        <label for="cliente" class="form-label">
+            <input id="cliente" name="cliente" type="text" class="form-control" />
+        </label>
+        <label for="estado" class="form-label">
+            <input id="estado" name="estado" type="text" class="form-control" />
+        </label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>

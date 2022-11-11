@@ -1,0 +1,29 @@
+﻿@model Cadete
+
+@{
+    ViewData["Title"] = "Alta Cadete";
+}
+
+<h1>Agregar un Cadete</h1>
+
+<form asp-action="AltaCadete">
+    <div class="mb-3">
+        <label for="id" class="form-label"> Id
+            <input id="id" name="id" type="text" class="form-control" />
+        </label>
+        <label for="nombre" class="form-label"> Nombre
+            <input id="nombre" name="nombre" type="text" class="form-control" />
+        </label>
+        <label for="direc" class="form-label"> Direccion
+            <input id="direc" name="direccion" type="text" class="form-control" />
+        </label>
+        <label for="tel" class="form-label"> Telefono
+            <input id="tel" name="telefono" type="text" class="form-control" />
+        </label>
+        <label for="list" class="form-label"> Listado Pedidos
+            <input id="list" name="listado" type="text" class="form-control" />
+        </label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
